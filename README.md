@@ -17,10 +17,13 @@ One-page static site for No Competition. A single `index.html` with embedded fon
 - Social links: Facebook and Instagram appear in the header, the mobile menu, the footer, and the JSON-LD `sameAs` list
 - Reviews: add more `<figure class="card">` blocks inside `.cards`; they scroll sideways automatically and alternate orange and white
 
+## Tracking
+- Meta Pixel (ID 2290437844798849) is in the `<head>` of `index.html`, just before `</head>`.
+
 ## Fonts
 - Headings, nav, buttons and the phone number use Architype Bayer. It is a lowercase-only face, so everything set in it is lowercased on purpose.
 - Body text uses Public Sans (SIL Open Font License, copy in `fonts/PUBLIC-SANS-OFL.txt`).
-- Both fonts are embedded in the CSS as data URIs, so they load even when the page is opened straight from disk and the page makes no calls to Google. The original font files stay in `fonts/` for reference; the page does not load them.
+- Both fonts are embedded in the CSS as data URIs, so they load even when the page is opened straight from disk and the page makes no calls to Google Fonts. The original font files stay in `fonts/` for reference; the page does not load them.
 - `fonts/public-sans-latin-wght-italic.woff2` is no longer used and can be deleted.
 
 ## Files
